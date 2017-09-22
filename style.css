@@ -1,0 +1,28 @@
+.logo {
+	display: block;
+	height: 92px;
+	width: 272px;
+	margin: auto;
+	margin-top: 10%;
+}
+
+.search-field {
+	background: url("./voice_search_icon.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 2em 2em;
+	display: block;
+	margin: auto;
+	margin-top: 2%;
+	height: 2em;
+	width: 40%;
+	/*Search Google or type URL*/
+
+}
+
+.voice-search-icon {
+	display: block;
+	height: 2em;
+	width: 2em;
+	opacity: 100%;
+}
