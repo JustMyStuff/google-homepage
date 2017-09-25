@@ -1,30 +1,53 @@
+#main-body-of-page {
+	font-family: "arial";
+}
+
 .logo {
 	display: block;
-	height: 92px;
-	width: 272px;
+	/*height: 92px;
+	width: 272px;*/
 	margin: auto;
-	margin-top: 10%;
+	margin-top: 89px;
 }
 
 .search-field {
 	background: url("./voice_search_icon.png");
 	background-repeat: no-repeat;
-	background-position: right;
+	/*background-position: right;*/
+	background-position: right 10px top 10px;
 	background-size: 24px 24px;
-	border-style: solid;
+	border-style: outset;
+	box-shadow: none;
+	/*border-style: solid;
 	border-color: gray;
 	border-width: 1px;
+	font-size: 24px;*/
 	display: block;
-	font-size: 24px;
-	height: 32px;
+	height: 44px;
 	margin: auto;
-	margin-top: 2%;
-	outline-width: 0;
+	margin-top: 13px;
+	/*outline-width: 0;*/
 	text-indent: 10px;
-	width: 666px;
+	width: 584px;
+	min-width: 484px;
+	/*width: 666px;*/
 	/*Search Google or type URL*/
 }
 
-.search-field:focus {
+/*.search-field:hover, .search-field:focus, .search-field:active {
 	border-color: blue;
+}*/
+
+.search-button {
+	border: 0;
+	box-shadow: none;
+	background-color: #f2f2f2;
+	height: 36px;
+	margin-top: 20px;
+	width: 143px;
+
+}
+
+.search-button-container {
+	text-align: center;
 }
